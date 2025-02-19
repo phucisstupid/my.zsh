@@ -46,8 +46,6 @@ zinit depth=1 wait lucid light-mode for \
 
 #  Oh My Zsh + Zinit Turbo
 zinit wait lucid for \
-
-    OMZP::git \
     OMZP::starship \
     OMZP::brew \
     OMZP::sudo \
@@ -59,3 +57,5 @@ zinit wait lucid for \
     OMZP::copyfile \
     OMZP::gitignore \
     OMZL::clipboard.zsh \
+    OMZP::git \
+
