@@ -2,7 +2,7 @@ name: Sync Dotfiles (Zsh & Starship)
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs once a day at midnight UTC
+    - cron: '0 0 * * *'  # Runs daily at midnight UTC
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
@@ -30,6 +30,7 @@ jobs:
 
           git add zsh starship
           git commit -m "Auto-sync Zsh & Starship config from dotfiles [$(date)]" || exit 0
-          git push
+
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/phucleeuwu/your-repo.git
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
