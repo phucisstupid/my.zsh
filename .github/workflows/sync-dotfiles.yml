@@ -31,6 +31,6 @@ jobs:
           git add zsh starship
           git commit -m "Auto-sync Zsh & Starship config from dotfiles [$(date)]" || exit 0
 
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/phucleeuwu/your-repo.git
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/phucleeuwu/my.zsh.git
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
