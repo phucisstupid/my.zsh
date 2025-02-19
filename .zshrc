@@ -44,18 +44,3 @@ zinit depth=1 wait lucid light-mode for \
       phucleeuwu/ohmyzsh-aliases \
       phucleeuwu/zsh-plugins-config \
 
-#  Oh My Zsh + Zinit Turbo
-zinit wait lucid for \
-    OMZP::starship \
-    OMZP::brew \
-    OMZP::sudo \
-    OMZP::eza \
-    OMZP::zoxide \
-    OMZP::alias-finder \
-    OMZP::fzf \
-    OMZP::copypath \
-    OMZP::copyfile \
-    OMZP::gitignore \
-    OMZL::clipboard.zsh \
-    OMZP::git \
-
