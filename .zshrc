@@ -12,7 +12,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # 🚀 Load Starship Prompt
 # eval "$(starship init zsh)"
-eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/powerlevel10k_lean.omp.json)"
+# eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/powerlevel10k_lean.omp.json)"
 
 # 🐢 Atuin (Better Shell History)
 eval "$(atuin init zsh)"
