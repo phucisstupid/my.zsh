@@ -6,11 +6,9 @@
 # ────────────────────────────────────────────────────────────
 # 🌙 Environment Variables
 # ────────────────────────────────────────────────────────────
-eval "$(/opt/homebrew/bin/brew shellenv)"
-source /opt/homebrew/opt/zinit/zinit.zsh  # Load Zinit
-
 export XDG_CONFIG_HOME="$HOME/.config"
-export STARSHIP_CONFIG="$XDG_CONFIG_HOME/starship/starship.toml"
+eval "$(/opt/homebrew/bin/brew shellenv)"
+# export STARSHIP_CONFIG="$XDG_CONFIG_HOME/starship/starship.toml"
 
 # 🚀 Load Starship Prompt
 # eval "$(starship init zsh)"
@@ -41,6 +39,8 @@ zinit depth"1" wait lucid light-mode for \
       phucleeuwu/aliases--.zsh \
       phucleeuwu/catppuccin-fzf.zsh \
       phucleeuwu/om.zsh-aliases \
+      phucleeuwu/om.zsh-plugins \
+      OMZL::clipboard.zsh \
       OMZP::brew \
       OMZP::sudo \
       OMZP::eza \
@@ -50,20 +50,5 @@ zinit depth"1" wait lucid light-mode for \
       OMZP::copypath \
       OMZP::copyfile \
       OMZP::gitignore \
-      OMZL::clipboard.zsh \
       OMZP::git \
       OMZP::git-auto-fetch
-
-# ────────────────────────────────────────────────────────────
-# 🔌 Plugin Configurations
-# ────────────────────────────────────────────────────────────
-#  `eza` (Enhanced `ls`)
-zstyle ':omz:plugins:eza' 'show-group' no  
-zstyle ':omz:plugins:eza' 'git-status' yes  
-zstyle ':omz:plugins:eza' 'icons' yes  
-
-#  `alias-finder`
-zstyle ':omz:plugins:alias-finder' autoload yes  
-zstyle ':omz:plugins:alias-finder' longer yes  
-zstyle ':omz:plugins:alias-finder' exact yes  
-zstyle ':omz:plugins:alias-finder' cheaper yes  
