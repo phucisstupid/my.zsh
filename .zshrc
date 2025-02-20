@@ -7,7 +7,7 @@
 # 🌙 Environment Variables
 # ────────────────────────────────────────────────────────────
 export XDG_CONFIG_HOME="$HOME/.config"
-eval "$(/opt/homebrew/bin/brew shellenv)"
+# eval "$(/opt/homebrew/bin/brew shellenv)"
 # export STARSHIP_CONFIG="$XDG_CONFIG_HOME/starship/starship.toml"
 
 # 🚀 Load Shell Prompt
@@ -23,7 +23,7 @@ eval "$(atuin init zsh)"
 
 # 🔌 Zsh plugins, aliases + Zinit Turbo
 zinit depth"1" wait lucid light-mode for \
-  atinit"zicompinit; zicdreplay; unalias zi" \
+  atinit"zicompinit; zicdreplay; unalias zi"; eval "$(/opt/homebrew/bin/brew shellenv)" \
       zsh-users/zsh-syntax-highlighting \
   atload"_zsh_autosuggest_start" \
       zsh-users/zsh-autosuggestions \
