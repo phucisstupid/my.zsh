@@ -1,23 +1,27 @@
-# ────────────────────────────────────────────────────────────
-# 🌙 Environment Variables
-# ────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────#
+# 🌙 Environment Variables                             #
+# ─────────────────────────────────────────────────────#
 export XDG_CONFIG_HOME="$HOME/.config"
-# eval "$(/opt/homebrew/bin/brew shellenv)"
+eval "$(/opt/homebrew/bin/brew shellenv)"
 export HOMEBREW_NO_ANALYTICS=1
 # source /opt/homebrew/opt/zinit/zinit.zsh
 # export STARSHIP_CONFIG="$XDG_CONFIG_HOME/starship/starship.toml"
 
 # 🚀 Load Shell Prompt
 # eval "$(starship init zsh)"
-# eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/powerlevel10k_lean.omp.json)"
+# eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/pure.omp.json)"
 
 # 🐢 Atuin (Better Shell History)
 eval "$(atuin init zsh)"
 
-# ────────────────────────────────────────────────────────────
-# 🔌 OhMyZsh + Aliases + Zinit Turbo
-# ────────────────────────────────────────────────────────────
-zinit depth"1" wait lucid light-mode for \
+# 🐄 Cowsay (For Fun)
+zinit depth"1" lucid nocd light-mode atload"joke" for phucleeuwu/cowsay.zsh 
+
+# ─────────────────────────────────────────────────────#
+# 🔌 OhMyZsh + Zinit Turbo (Plugins, Aliases, Configs) #
+# ─────────────────────────────────────────────────────#
+
+zinit depth"1" wait lucid nocd light-mode for \
   atinit"zicompinit; zicdreplay; unalias zi" \
       zsh-users/zsh-syntax-highlighting \
   atload"_zsh_autosuggest_start" \
@@ -31,10 +35,9 @@ zinit depth"1" wait lucid light-mode for \
       hlissner/zsh-autopair \
       fdellwing/zsh-bat \
       phucleeuwu/yazi-zoxide.zsh \
-      phucleeuwu/aliases--.zsh \
-      phucleeuwu/catppuccin-fzf.zsh \
+      phucleeuwu/navi-plus-plus.zsh \
+      phucleeuwu/plugins-config.zsh \
       phucleeuwu/om.zsh-aliases \
-      phucleeuwu/om.zsh-plugins \
       OMZL::clipboard.zsh \
       OMZP::brew \
       OMZP::sudo \
@@ -46,4 +49,5 @@ zinit depth"1" wait lucid light-mode for \
       OMZP::copyfile \
       OMZP::gitignore \
       OMZP::git \
-      OMZP::git-auto-fetch
+      OMZP::git-auto-fetch \
+      OMZP::magic-enter 
