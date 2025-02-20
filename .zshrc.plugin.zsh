@@ -2,8 +2,8 @@
 # 🌙 Environment Variables
 # ────────────────────────────────────────────────────────────
 export XDG_CONFIG_HOME="$HOME/.config"
+eval "$(/opt/homebrew/bin/brew shellenv)"
 # source /opt/homebrew/opt/zinit/zinit.zsh  
-# eval "$(/opt/homebrew/bin/brew shellenv)"
 # export STARSHIP_CONFIG="$XDG_CONFIG_HOME/starship/starship.toml"
 
 # 🚀 Load Shell Prompt
@@ -14,9 +14,8 @@ export XDG_CONFIG_HOME="$HOME/.config"
 eval "$(atuin init zsh)"
 
 # ────────────────────────────────────────────────────────────
-# 🌻 Zinit Plugin Manager - Turbo Mode
-# ────────────────────────────────────────────────────────────
 # 🔌 OhMyZsh + Aliases + Zinit Turbo
+# ────────────────────────────────────────────────────────────
 zinit depth"1" wait lucid light-mode for \
   atinit"zicompinit; zicdreplay; unalias zi" \
       zsh-users/zsh-syntax-highlighting \
