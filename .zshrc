@@ -2,6 +2,7 @@
 # 🌙 Environment Variables
 # ────────────────────────────────────────────────────────────
 export XDG_CONFIG_HOME="$HOME/.config"
+# source /opt/homebrew/opt/zinit/zinit.zsh  
 # eval "$(/opt/homebrew/bin/brew shellenv)"
 # export STARSHIP_CONFIG="$XDG_CONFIG_HOME/starship/starship.toml"
 
