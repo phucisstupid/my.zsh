@@ -17,7 +17,7 @@ eval "$(atuin init zsh)"
 # ────────────────────────────────────────────────────────────
 # 🔌 OhMyZsh + Aliases + Zinit Turbo
 zinit depth"1" wait lucid light-mode for \
-  atinit"zicompinit; zicdreplay; unalias zi; eval "$(/opt/homebrew/bin/brew shellenv)"" \
+  atinit"zicompinit; zicdreplay; unalias zi" \
       zsh-users/zsh-syntax-highlighting \
   atload"_zsh_autosuggest_start" \
       zsh-users/zsh-autosuggestions \
