@@ -18,23 +18,7 @@ A fast, modern, and highly optimized **Zsh configuration** with plugins, aliases
 
 ## 🛠 Installation
 
-### 1️⃣ Clone this repo
-
-```sh
-git clone https://github.com/phucleeuwu/myzsh ~/zsh
-```
-
-### 2️⃣ Symlink `.zshrc` to your home directory
-
-```sh
-ln -s ~/zsh/.zshrc ~/.zshrc
-```
-
-### 3️⃣ Restart your shell
-
-```sh
-exec zsh
-```
+Copy my .zshrc and paste to your, restart shell and see the magic.
 
 ---
 
