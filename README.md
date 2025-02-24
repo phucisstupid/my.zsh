@@ -34,7 +34,7 @@ Install [Zinit](https://github.com/zdharma-continuum/zinit). Copy my .zshrc and 
 | `fdf`               | Find files with `fd`                   |
 | `rgt js "function"` | Search JavaScript files with `ripgrep` |
 
-*(See ******[phucleeuwu/better-navigation](https://github.com/phucleeuwu/better-navigation)****** for all aliases.)*
+*(See ******[phucleeuwu/better-navigation](https://github.com/phucleeuwu/navi-plus-plus.zsh)****** for all aliases.)*
 
 ---
 
