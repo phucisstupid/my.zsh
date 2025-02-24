@@ -15,7 +15,7 @@ eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/pure.omp
 eval "$(atuin init zsh)"
 
 # 🐄 Cowsay (For Fun)
-# zinit depth"1" lucid nocd light-mode atload"joke | lolcat" for phucleeuwu/cowsay
+# zinit depth"1" lucid nocd light-mode atload"joke | lolcat" for phucleeuwu/cowsay.zsh
 
 # 🔌 OhMyZsh + Aliases + Zinit Turbo
 zinit depth"1" wait lucid light-mode for phucleeuwu/my.zsh
