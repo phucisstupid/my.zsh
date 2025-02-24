@@ -1,11 +1,17 @@
+# touch ~/.hushlogin && echo " $(date '+%Y-%m-%d  %H:%M')" | lolcat 
+
 # 🌙 Environment Variables
-eval "$(/opt/homebrew/bin/brew shellenv)"
-source /opt/homebrew/opt/zinit/zinit.zsh  
-# export STARSHIP_CONFIG="$XDG_CONFIG_HOME/starship/starship.toml"
+export XDG_CONFIG_HOME="$HOME/.config"
+export PATH="/opt/homebrew/bin:$PATH"
+export HOMEBREW_NO_ANALYTICS=1
+source /opt/homebrew/opt/zinit/zinit.zsh
 
 # 🚀 Load Shell Prompt
 # eval "$(starship init zsh)"
-# eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/pure.omp.json)"
+eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/pure.omp.json)"
+
+# 🐢 Atuin (Better Shell History)
+eval "$(atuin init zsh)"
 
 # 🔌 OhMyZsh + Aliases + Zinit Turbo
 zinit depth"1" wait lucid light-mode for phucleeuwu/my.zsh
