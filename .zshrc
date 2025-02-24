@@ -1,4 +1,5 @@
-# Some settings with hashtag, you can remove `#` to enable or disable
+# ✨ Some settings with `#` are disabled. You can remove `#` to enable them, except for the line with emoji
+
 # touch ~/.hushlogin && echo " $(date '+%Y-%m-%d  %H:%M')" | lolcat 
 
 # 🌙 Environment Variables
@@ -18,4 +19,4 @@ eval "$(atuin init zsh)"
 # zinit depth"1" lucid nocd light-mode atload"joke | lolcat" for phucleeuwu/cowsay.zsh
 
 # 🔌 OhMyZsh + Aliases (with Zinit-Turbo plugins manager)
-zinit depth"1" wait lucid light-mode for phucleeuwu/my.zsh
+zinit depth"1" lucid nocd light-mode for phucleeuwu/my.zsh
