@@ -1,4 +1,4 @@
-# 🚀 My Zsh Configuration
+# 🐚 My Zsh Configuration
 
 A fast, modern, and highly optimized **Zsh configuration** with plugins, aliases, and tools to boost productivity.
 
