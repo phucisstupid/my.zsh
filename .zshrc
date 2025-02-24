@@ -1,4 +1,4 @@
-Some settings with hashtag, you can remove `#` to enable or disable
+# Some settings with hashtag, you can remove `#` to enable or disable
 # touch ~/.hushlogin && echo " $(date '+%Y-%m-%d  %H:%M')" | lolcat 
 
 # 🌙 Environment Variables
