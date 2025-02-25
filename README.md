@@ -22,10 +22,10 @@ Install [`Zinit`](https://github.com/zdharma-continuum/zinit). Copy my .zshrc an
 
 ---
 
-## ⇵ Upgrade all
+## ⇵ Upgrade all with one command:
 
 ```bash
-zinit update phucleeuwu/my.zsh
+phucleeuwu
 ```
 
 ## ⚡ Included Aliases
