@@ -20,7 +20,6 @@ zinit depth"1" wait lucid nocd light-mode for \
       phucleeuwu/om.zsh-aliases \
       OMZL::clipboard.zsh \
       OMZP::brew \
-      OMZP::sudo \
       OMZP::eza \
       OMZP::zoxide \
       OMZP::alias-finder \
