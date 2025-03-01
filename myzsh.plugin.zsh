@@ -6,7 +6,6 @@ zinit depth"1" wait lucid nocd light-mode for \
       zsh-users/zsh-syntax-highlighting \
   atload"_zsh_autosuggest_start" \
       zsh-users/zsh-autosuggestions \
-  blockf atpull'zinit creinstall -q .' \
       zsh-users/zsh-completions \
   pick"themes/catppuccin_mocha-zsh-syntax-highlighting.zsh" \
       catppuccin/zsh-syntax-highlighting \
