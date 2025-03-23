@@ -92,22 +92,6 @@ This repo **automatically updates** Oh My Zsh aliases from [ohmyzsh/aliases](htt
 
 ---
 
-## 🛠 Troubleshooting
-
-- **Plugins not loading?** Run:
-
-  ```sh
-  zinit self-update && zinit update --all
-  ```
-
-- **Starship prompt looks broken?** Try:
-
-  ```sh
-  starship explain
-  ```
-
----
-
 ## 🎯 License
 
 This config is open-source under the [MIT License](LICENSE).
