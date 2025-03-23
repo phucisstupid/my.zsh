@@ -18,7 +18,7 @@ A fast, modern, and highly optimized **Zsh configuration** with plugins, aliases
 
 ## 🛠 Installation
 
-Install [`Zinit`](https://github.com/zdharma-continuum/zinit). Copy my [.zshrc](./.zshrc) and paste to your, restart shell and see the magic.
+Install [`Zinit`](https://github.com/zdharma-continuum/zinit). Copy my [`.zshrc`](./.zshrc) and paste to your, restart shell and see the magic.
 
 ---
 
