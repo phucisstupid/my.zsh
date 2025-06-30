@@ -2,7 +2,6 @@
 # 🔌 OhMyZsh + Zinit Turbo (Plugins, Aliases, Configs) #
 # ─────────────────────────────────────────────────────#
 zinit depth"1" wait lucid nocd light-mode for \
-  atinit"unalias zi" \
       zsh-users/zsh-syntax-highlighting \
   atload"_zsh_autosuggest_start" \
       zsh-users/zsh-autosuggestions \
