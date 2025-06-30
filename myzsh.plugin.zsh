@@ -14,7 +14,6 @@ zinit depth"1" wait lucid nocd light-mode for \
       fdellwing/zsh-bat \
       phucleeuwu/yazi-zoxide.zsh \
       phucleeuwu/better.zsh \
-      phucleeuwu/ohmyzsh-config.zsh \
       phucleeuwu/ohmyzsh-aliases \
       OMZL::clipboard.zsh \
       OMZP::brew \
