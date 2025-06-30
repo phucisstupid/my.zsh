@@ -40,7 +40,7 @@ phucleeuwu
 | `fdf`               | Find files with `fd`                   |
 | `rgt js "function"` | Search JavaScript files with `ripgrep` |
 
-*(See ******[phucleeuwu/better-navigation](https://github.com/phucleeuwu/navi-plus-plus.zsh)****** for all aliases.)*
+*(See ******[phucleeuwu/better.zsh](https://github.com/phucleeuwu/better.zsh)****** for all aliases.)*
 
 ---
 
