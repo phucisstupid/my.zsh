@@ -12,9 +12,9 @@ zinit depth"1" wait lucid nocd light-mode for \
       aloxaf/fzf-tab \
       hlissner/zsh-autopair \
       fdellwing/zsh-bat \
-      phucleeuwu/yazi-zoxide.zsh \
-      phucleeuwu/better.zsh \
-      phucleeuwu/ohmyzsh-aliases \
+      phucisstupid/yazi-zoxide.zsh \
+      phucisstupid/better.zsh \
+      phucisstupid/ohmyzsh-aliases \
       OMZL::clipboard.zsh \
       OMZP::brew \
       OMZP::sudo \
