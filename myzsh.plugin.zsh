@@ -11,7 +11,6 @@ zinit depth"1" wait lucid nocd light-mode for \
       jeffreytse/zsh-vi-mode \
       aloxaf/fzf-tab \
       hlissner/zsh-autopair \
-      fdellwing/zsh-bat \
       phucisstupid/better.zsh \
       phucisstupid/ohmyzsh-aliases \
       OMZL::clipboard.zsh \
@@ -26,4 +25,4 @@ zinit depth"1" wait lucid nocd light-mode for \
       OMZP::gitignore \
       OMZP::git \
       OMZP::git-auto-fetch \
-      OMZP::magic-enter 
+      OMZP::magic-enter
