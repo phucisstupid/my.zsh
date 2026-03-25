@@ -23,5 +23,4 @@ zinit depth"1" wait lucid nocd light-mode for \
       OMZP::copyfile \
       OMZP::gitignore \
       OMZP::git \
-      OMZP::git-auto-fetch \
       OMZP::magic-enter
