@@ -15,7 +15,6 @@ zinit depth"1" wait lucid nocd light-mode for \
       phucisstupid/ohmyzsh-aliases \
       OMZL::clipboard.zsh \
       OMZP::brew \
-      OMZP::sudo \
       OMZP::eza \
       OMZP::zoxide \
       OMZP::alias-finder \
